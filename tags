@@ -1,0 +1,67 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CC	makefile	/^CC = gcc -g$/;"	m
+CFLAGS	makefile	/^CFLAGS = -pthread -lglfw -lGL -lX11 -lXxf86vm -lXrandr -lm$/;"	m
+_GL3_H	gl3.h	20;"	d
+_MATRIX_H	matrix.h	19;"	d
+_OBJ_LOADER_H	obj_loader.h	19;"	d
+_SHADER_H	shader.h	19;"	d
+_STRUCTURES_H	structures.h	20;"	d
+angle	structures.h	/^    GLfloat angle;$/;"	m	struct:__anon3
+attrb	structures.h	/^    char* attrb;$/;"	m	struct:__anon5
+attrb_loc	structures.h	/^    GLint attrb_loc;$/;"	m	struct:__anon5
+cam_transform	matrix.c	/^void cam_transform (GLfloat xi, GLfloat yi, GLfloat zi,$/;"	f
+components	structures.h	/^    GLint components;$/;"	m	struct:__anon5
+count	structures.h	/^    GLuint count;$/;"	m	struct:__anon4
+create_window	main.c	/^void create_window (int width, int height)$/;"	f
+ebo	structures.h	/^    element_buffer ebo;$/;"	m	struct:__anon6
+element_buffer	structures.h	/^} element_buffer;$/;"	t	typeref:struct:__anon4
+fragment_shader	structures.h	/^    GLuint fragment_shader;$/;"	m	struct:__anon6
+glres	structures.h	/^} glres;$/;"	t	typeref:struct:__anon6
+id	structures.h	/^    GLuint *id;$/;"	m	struct:__anon2
+id	structures.h	/^    GLuint id;$/;"	m	struct:__anon4
+id	structures.h	/^    GLuint id;$/;"	m	struct:__anon5
+id_size	structures.h	/^    size_t id_size;$/;"	m	struct:__anon2
+img	structures.h	/^    vertex img;$/;"	m	struct:__anon3
+link_prg	shader.c	/^GLuint link_prg(GLuint vsh, GLuint fsh)$/;"	f
+main	main.c	/^int main()$/;"	f
+matrix_upload	gl3.c	/^void matrix_upload (GLuint id, GLfloat* projection, GLfloat* view, GLfloat* model)$/;"	f
+mdlmatrix	matrix.c	/^GLfloat mdlmatrix[16] = { 1.0f, 0.0f, 0.0f, 0.0f,  $/;"	v
+mesh	structures.h	/^} mesh;$/;"	t	typeref:struct:__anon2
+mk_camera	matrix.c	/^GLfloat* mk_camera (GLfloat xi, GLfloat yi, GLfloat zi,$/;"	f
+mk_glres_from_obj	gl3.c	/^glres* mk_glres_from_obj (mesh* obj, char* vshader, char* fshader, char* attrib,$/;"	f
+mk_mdlmatrix	matrix.c	/^GLfloat* mk_mdlmatrix (GLfloat xi, GLfloat yi, GLfloat zi,$/;"	f
+mk_prjmatrix	matrix.c	/^GLfloat* mk_prjmatrix (GLfloat fovy, GLfloat aspect, GLfloat znear, GLfloat zfar)$/;"	f
+mk_quatrn	matrix.c	/^quatrn* mk_quatrn (GLfloat x, GLfloat y, GLfloat z, GLfloat w)$/;"	f
+mk_vbo	gl3.c	/^GLuint* mk_vbo (mesh* obj)$/;"	f
+model_matrix	structures.h	/^    GLfloat* model_matrix;$/;"	m	struct:__anon6
+obj_loader	obj_loader.c	/^void obj_loader (mesh* obj, const char* filename)$/;"	f
+pi	main.c	26;"	d	file:
+pi	matrix.c	24;"	d	file:
+prj_matrix	structures.h	/^    GLfloat* prj_matrix;$/;"	m	struct:__anon6
+program	structures.h	/^    GLuint program;$/;"	m	struct:__anon6
+quatrn	structures.h	/^} quatrn;$/;"	t	typeref:struct:__anon3
+quatrn_normalize	matrix.c	/^void quatrn_normalize (quatrn* quaternion)$/;"	f
+radians	main.c	27;"	d	file:
+radians	matrix.c	25;"	d	file:
+render	gl3.c	/^void render (glres* resource)$/;"	f
+rotate	matrix.c	/^void rotate (glres* resource, quatrn* quaternion)$/;"	f
+sh_loader	shader.c	/^GLuint sh_loader(const char *shader_source, GLenum type)$/;"	f
+shader2string	shader.c	/^char* shader2string (const char* filename)$/;"	f
+stride	structures.h	/^    GLsizei stride;$/;"	m	struct:__anon5
+translate	matrix.c	/^void translate (glres* resource, $/;"	f
+type	structures.h	/^    GLenum type;$/;"	m	struct:__anon5
+vbo	structures.h	/^    vertex_buffer vbo;$/;"	m	struct:__anon6
+vertex	structures.h	/^} vertex;$/;"	t	typeref:struct:__anon1
+vertex_buffer	structures.h	/^} vertex_buffer;$/;"	t	typeref:struct:__anon5
+vertex_shader	structures.h	/^    GLuint vertex_shader;$/;"	m	struct:__anon6
+view_matrix	structures.h	/^    GLfloat* view_matrix;$/;"	m	struct:__anon6
+vrtx	structures.h	/^    vertex *vrtx;$/;"	m	struct:__anon2
+vrtx_size	structures.h	/^    size_t vrtx_size;$/;"	m	struct:__anon2
+x	structures.h	/^    GLfloat x;$/;"	m	struct:__anon1
+y	structures.h	/^    GLfloat y;$/;"	m	struct:__anon1
+z	structures.h	/^    GLfloat z;$/;"	m	struct:__anon1
